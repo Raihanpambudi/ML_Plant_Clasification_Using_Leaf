@@ -1,0 +1,23 @@
+❌ TEST FAILED: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="file"]"}
+  (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x5e991571026a <unknown>
+#1 0x5e99151baab0 <unknown>
+#2 0x5e991520c6f0 <unknown>
+#3 0x5e991520c8e1 <unknown>
+#4 0x5e991525ab94 <unknown>
+#5 0x5e99152321cd <unknown>
+#6 0x5e9915257fee <unknown>
+#7 0x5e9915231f73 <unknown>
+#8 0x5e99151feaeb <unknown>
+#9 0x5e99151ff751 <unknown>
+#10 0x5e99156d4b7b <unknown>
+#11 0x5e99156d8959 <unknown>
+#12 0x5e99156bb959 <unknown>
+#13 0x5e99156d9518 <unknown>
+#14 0x5e99156a010f <unknown>
+#15 0x5e99156fd918 <unknown>
+#16 0x5e99156fdaf6 <unknown>
+#17 0x5e991570f586 <unknown>
+#18 0x790cee238aa4 <unknown>
+#19 0x790cee2c5c3c <unknown>
