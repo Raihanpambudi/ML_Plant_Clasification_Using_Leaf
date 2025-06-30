@@ -1,6 +1,7 @@
 # Importing essential libraries and modules
-
-from flask import Flask, render_template, request, Markup,redirect
+# inilah inti program sehingga jika ada masalah dalam program ini maka program tidak berjalan
+from flask import Flask, render_template, request, redirect 
+from markupsafe import Markup
 import numpy as np
 import pandas as pd
 from utils.leaf import leaf_dic
