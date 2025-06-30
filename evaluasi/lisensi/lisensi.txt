@@ -1,0 +1,42 @@
+# 📄 Laporan Etika & Lisensi
+
+## 🟢 Deskripsi Proyek
+
+Proyek ini merupakan sistem identifikasi spesies tanaman berdasarkan gambar daun, dikembangkan menggunakan Python Flask dan model CNN ResNet9. Sistem mampu mengklasifikasikan berbagai jenis tanaman secara otomatis dan ditujukan untuk tujuan pembelajaran dan eksperimen akademik.
+
+## 🔍 Telaah Lisensi Proyek Asli
+
+Repositori yang di-*fork* tidak menyertakan file `LICENSE`, sehingga secara default berstatus **All Rights Reserved**. Adapun pustaka-pustaka dan teknologi pihak ketiga yang digunakan mayoritas bersifat open-source:
+
+| Komponen               | Lisensi Umum                   |
+|------------------------|--------------------------------|
+| Python (Flask)         | BSD License                    |
+| PyTorch / torchvision  | BSD License                    |
+| Webdriver Manager      | MIT License                    |
+| PlantUML               | MIT License                    |
+| Template proyek GitHub | MIT License / Publik           |
+
+Dengan tidak adanya lisensi eksplisit pada repositori asli, maka seluruh hak cipta melekat pada pemilik asli dan distribusi ulang harus mengikuti izin tertulis atau ketentuan GitHub (non-komersial, fork internal, dsb).
+
+## ✅ Kompatibilitas Pengubahan
+
+Pengubahan yang dilakukan dalam proyek ini:
+
+- Menambahkan diagram UML (Class & Sequence) menggunakan PlantUML.
+- Menambahkan pengujian black-box dengan Selenium.
+- Menyusun studi usability menggunakan metode SUS.
+- Penyempurnaan dokumentasi serta antarmuka pengguna.
+
+Seluruh pengubahan bersifat **akademik dan non-komersial**, tidak menghilangkan identitas pemilik repositori asli, serta tidak melanggar batas etika pemanfaatan perangkat lunak sumber terbuka.
+
+## 💬 Rekomendasi Etika
+
+Agar pengembangan proyek ini dapat dilanjutkan secara legal dan etis, maka disarankan untuk:
+
+- Menambahkan file `LICENSE` dan memilih lisensi terbuka seperti **MIT License** atau **GNU GPL v3** agar repositori hasil modifikasi sah dibagikan.
+- Menyertakan atribusi ke repositori asli di `README.md`, baik dalam bentuk link maupun pengakuan kontribusi.
+
+## 📁 Lokasi Laporan
+
+Laporan ini disimpan pada struktur berikut:
+
