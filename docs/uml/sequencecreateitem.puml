@@ -1,0 +1,15 @@
+@startuml
+actor User
+participant "Leaf Upload Page" as UI
+participant "Flask App" as App
+participant "predict_image()" as Predictor
+participant "ResNet9 Model" as Model
+
+User -> UI : Upload leaf image
+UI -> App : POST /leaf-predict
+App -> Predictor : predict_image(img)
+Predictor -> Model : model(img)
+Model --> Predictor : return prediction
+Predictor --> App : return prediction
+App -> UI : Show result page
+@enduml

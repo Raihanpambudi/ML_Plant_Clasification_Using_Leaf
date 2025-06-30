@@ -1,0 +1,12 @@
+@startuml
+actor User
+participant "Login Page" as UI
+participant "Flask App" as App
+participant "Database"
+
+User -> UI : Input email & password
+UI -> App : POST /login
+App -> Database : Verify credentials
+Database --> App : OK / Failed
+App -> UI : Redirect to dashboard / show error
+@enduml
